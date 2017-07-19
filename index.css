@@ -10,12 +10,10 @@ body{
 .page .header{
   height: 50px;
   border: 1px solid red;
-  margin-bottom: 5px;
   padding: 2px 0 2px 20px;
 }
 .page .content{
   border: 1px solid red;
-  margin-bottom: 5px;
   min-height: 500px;
 }
 .page .footer{
@@ -24,9 +22,33 @@ body{
 }
 /*end page css*/
 
+/*start header css*/
+.header .header-left{
+  float: left;
+}
+.header .header-right{
+  float: right;
+}
+/*end header css*/
+
+/*start navbar css*/
+.navbar{
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar .item{
+  padding: 15px;
+  cursor: pointer;
+}
+.navbar .item.active{
+  border-bottom: 5px solid blue;
+}
+/*end navber css*/
+
 /*start branch css*/
 .branch{
-  border: 1px solid blue;
   width: 150px;
 }
 .branch .text{
